@@ -1,5 +1,5 @@
 #Need to import flask class which will allow use to create a WSGI
-import Flask
+from flask import Flask
 
 app = Flask(__name__)
 
